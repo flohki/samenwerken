@@ -1,0 +1,71 @@
+/* algemeen */
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #2f3031;
+}
+
+
+/* header start */
+.header{
+	padding: 5px 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+}
+.header_bg{
+	background-color: #7f8c8d;
+}
+.m_0{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.off_bg{
+	background-color: #7f8c8d;
+}
+.menu_one .active{
+	color: #ffffff !important;
+}
+/* .menu_one ul{} */
+.menu_one ul li{
+	border-bottom: 1px solid #2f3031;
+}
+.menu_one ul li a{
+	color: #2f3031;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.menu_one ul li a:hover{
+	color: #ffffff !important;
+}
+.menu_two .active{
+	color: #ffffff !important;
+}
+.menu_two ul{
+	margin-left: 330px;
+}
+.menu_two ul li{
+	margin-right: 30px;
+	border: none;
+}
+.menu_two ul li:last-child{
+	margin-right: 0;
+}
+.menu_two ul li a{
+	color: #2f3031;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.menu_two ul li a:hover{
+	color: #ffffff !important;
+}
+.me_focus{
+	border: none !important;
+}
+.me_focus:focus {
+    box-shadow: none !important;
+    border: none !important;
+    
+}
+/* header end */
